@@ -6,7 +6,7 @@ import 'pages/home/home_page.dart';
 void main() {
   runApp(DevicePreview(
     builder: (_) => MyApp(),
-    enabled: false,
+    enabled: true,
   ));
 }
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Curso de Flutter',
+      title: 'Ativ. 7 - Luna Costa',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
